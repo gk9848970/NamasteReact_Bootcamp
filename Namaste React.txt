@@ -1,0 +1,61 @@
+https://docs.google.com/spreadsheets/d/1_ZK0e1Rbdb5W9JIRoPM6YqbyNgomHKJ5RI7vW735hjQ/edit
+
+Day 1
+
+VS Code Extensions
+Better comments
+Bracket Pair Coloriser
+ESlint
+Gitlens
+Live Server
+Prettier
+Prettier ESlint
+Pretiify JSON
+Emment
+
+Try react via CDN and see the code of those files and react, reactDOM object.
+
+https://bobbyhadz.com/blog/react-reacdom-render-no-longer-supported-in-react-18
+https://javascript.info/script-async-defer
+
+Be curious,
+
+Brief History React.
+https://medium.com/@sjarancio/reactjs-a-brief-history-3c1e969a477f
+
+Why it is called react?
+Because it reacts to state changes.
+
+Library vs Framework.
+https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/
+
+Why should we place script tags at end of body.
+https://www.hackinbits.com/interview-questions/html/why-script-tags-should-be-placed-at-the-end-of-body-tag
+
+What is CDN?
+https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
+
+Why react has two CDN not one?
+https://backbencher.dev/articles/why-react-and-react-dom-libraries-kept-in-two-separate-files
+
+Why style tag at top not bottom like scripts?
+Because colors will load and till element is parsed user will be able to see the color and things like that.
+Else things will happen in two phase, First a ugly page is seen then it becomes beautiful.
+
+Why style not in body but in head?
+To avoid repaints and redownload of styles.
+
+What is cross origin in scripts?
+https://javascript.info/onload-onerror#crossorigin-policy
+
+Production files vs Development files?
+https://stackoverflow.com/questions/48151128/difference-between-production-and-development-build-in-reactjs#:~:text=The%20development%20build%20is%20used%20-%20as%20the,is%20the%20code%20running%20on%20your%20client%27s%20machine.
+
+Why order of React CDNs matter?
+Not found online yet.
+
+Async vs defer?
+https://javascript.info/script-async-defer
+
+Extra Resource
+https://backbencher.dev/articles/react-interview-questions

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+</head>
+<body>
+    <h1 class="heading">Hi</h1>
+
+    <div id="root1">
+        <h1>Already there</h1>
+    </div>
+
+    <div id="root2">
+
+    </div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script>
+        // Given by browser
+        console.log(window)
+
+        // Given by react scripts
+        console.log(React)
+        console.log(ReactDOM)
+
+        // Hello as React Program
+        const heading = React.createElement("h1", {}, "Hi Everyonee!!");
+        const root1 = ReactDOM.createRoot(document.getElementById('root1'));
+        console.log(root1);
+
+        // Hello as JS Program
+        const root2 = document.getElementById("root2");
+        const headingJS = document.createElement("h1");
+        headingJS.innerText = "Hello React";
+        root2.appendChild(headingJS);
+    </script>
+</body>
+</html>
