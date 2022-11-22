@@ -1,4 +1,9 @@
+Bhavesh Github
+
 Notes
+https://docs.google.com/document/d/1z5wjepavI4kEW_Ogm2Z3L3-uhUhkKG7ghTf6LOj0omA/edit?usp=sharing
+
+Pdfs
 https://drive.google.com/drive/folders/1r1dkPFnSaURQjcVMUxbchqAe7n1QVRu2
 
 Info Sheet
@@ -117,7 +122,7 @@ https://stackoverflow.com/questions/22842691/what-is-the-meaning-of-the-dist-dir
 https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/
 
 13. What is NPX?
-https://www.hacksparrow.com/nodejs/what-is-npx.html#:~:text=npx%20is%20a%20Node.js%20command-line%20tool%20which%20became,installed%20globally%20using%20the%20-g%20flag%20with%20npm.
+https://www.hacksparrow.com/nodejs/what-is-npx.html
 
 14. What is HMR(Hot module replacement)?
 https://medium.com/js-imaginea/hot-module-replacement-8b634c2a4348
