@@ -1,6 +1,16 @@
+Bhavesh Github
+
+Notes
+https://docs.google.com/document/d/1z5wjepavI4kEW_Ogm2Z3L3-uhUhkKG7ghTf6LOj0omA/edit?usp=sharing
+
+Pdfs
+https://drive.google.com/drive/folders/1r1dkPFnSaURQjcVMUxbchqAe7n1QVRu2
+
+Info Sheet
 https://docs.google.com/spreadsheets/d/1_ZK0e1Rbdb5W9JIRoPM6YqbyNgomHKJ5RI7vW735hjQ/edit
 
-Day 1
+Extra Resource
+https://backbencher.dev/articles/react-interview-questions
 
 VS Code Extensions
 Better comments
@@ -13,10 +23,10 @@ Prettier ESlint
 Pretiify JSON
 Emment
 
-Try react via CDN and see the code of those files and react, reactDOM object.
+---------------------------------------------------------------------------
+Day 1
 
-https://bobbyhadz.com/blog/react-reacdom-render-no-longer-supported-in-react-18
-https://javascript.info/script-async-defer
+Try react via CDN and see the code of those files and react, reactDOM object.
 
 Be curious,
 
@@ -54,8 +64,88 @@ https://stackoverflow.com/questions/48151128/difference-between-production-and-d
 Why order of React CDNs matter?
 Not found online yet.
 
+left to do
+
 Async vs defer?
 https://javascript.info/script-async-defer
+https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html#script
 
-Extra Resource
-https://backbencher.dev/articles/react-interview-questions
+https://www.techiediaries.com/react-18-createroot/
+https://bobbyhadz.com/blog/react-reacdom-render-no-longer-supported-in-react-18
+
+------------------------------------------------------------------------------
+Day 2
+
+1. What is Babel?
+https://medium.com/@rajithaeye/what-is-babel-8dcfdf84ea3e
+
+2. What is Bundler, Parcel and getting started with it.
+https://betterprogramming.pub/parcel-js-easy-javascript-bundling-ecddac0783f7
+
+3. What happens in Production build, How it is made effective?
+https://parceljs.org/features/production/
+
+4. Dev dependancy vs Dependancy.
+https://medium.com/@stalonadsl948/dependencies-vs-devdependencies-926e096a3dee
+
+5. What does parcel cache folder do?
+https://stackoverflow.com/questions/60695778/what-is-the-cache-folder-in-parcel-bundler-is-it-necessary-to-push-the-cache
+
+6. What is package-lock.json, Why not only package.json with exact version?
+https://stackoverflow.com/questions/44297803/what-is-the-role-of-the-package-lock-json
+
+7. What is Code splitting?
+https://medium.com/hackernoon/code-splitting-with-parcel-web-app-bundler-fe06cc3a20da
+
+8. Why is react app so fast?
+The way it is bundled(Production build) which is due to bundler like webpack or parcel not a react feature, but due these also react app is faster.
+
+App being faster due to react solely are,
+
+A. Virtual Dom
+https://medium.com/swlh/what-makes-react-so-fast-2f2ed27afb68
+
+B. Component based structure.
+
+9. Webpack vs Parcel vs Rollup?
+https://betterprogramming.pub/the-battle-of-bundlers-6333a4e3eda9
+
+10. What is robots.txt?
+https://www.cloudflare.com/learning/bots/what-is-robots.txt/
+Example: https://www.cloudflare.com/robots.txt
+
+11. What is Dist folder do?
+Second answer in,
+https://stackoverflow.com/questions/22842691/what-is-the-meaning-of-the-dist-directory-in-open-source-projects
+
+12. What is NPM?
+https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/
+
+13. What is NPX?
+https://www.hacksparrow.com/nodejs/what-is-npx.html
+
+14. What is HMR(Hot module replacement)?
+https://medium.com/js-imaginea/hot-module-replacement-8b634c2a4348
+
+15. Features section of parcel has lot of Info. 
+What is scope hoisting?
+https://parceljs.org/features/scope-hoisting/
+
+16. Superpowers of parcel.
+https://parceljs.org/
+
+17. Gitignore
+https://www.freecodecamp.org/news/gitignore-what-is-it-and-how-to-add-to-repo/
+
+18. What is browserlists?
+https://stackoverflow.com/questions/55510405/what-is-the-significance-of-browserslist-in-package-json-created-by-create-react
+
+19. What is manifest.json in create react app.
+https://stackoverflow.com/questions/45186993/what-is-public-manifest-json-file-in-create-react-app
+
+20. Folder structure inside of create-react-app explained.
+https://www.code-boost.com/create-react-app/
+
+21. Why no script tag?
+https://stackoverflow.com/questions/65634876/why-my-react-app-appeared-no-script-tag-in-the-body-of-the-html
+
