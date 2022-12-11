@@ -1,5 +1,3 @@
-Bhavesh Github
-
 Notes
 https://docs.google.com/document/d/1z5wjepavI4kEW_Ogm2Z3L3-uhUhkKG7ghTf6LOj0omA/edit?usp=sharing
 
@@ -11,6 +9,8 @@ https://docs.google.com/spreadsheets/d/1_ZK0e1Rbdb5W9JIRoPM6YqbyNgomHKJ5RI7vW735
 
 Extra Resource
 https://backbencher.dev/articles/react-interview-questions
+https://learnreact.design/posts/what-is-react
+https://refactoring.guru/design-patterns/book
 
 VS Code Extensions
 Better comments
@@ -26,15 +26,17 @@ Emment
 ---------------------------------------------------------------------------
 Day 1
 
-Try react via CDN and see the code of those files and react, reactDOM object.
-
-Be curious,
-
 Brief History React.
 https://medium.com/@sjarancio/reactjs-a-brief-history-3c1e969a477f
 
 Why it is called react?
 Because it reacts to state changes.
+
+React VS Vanilla JS
+https://medium.com/@Nick_C_Rose/react-vs-vanilla-javascript-f5af0a9305a2
+
+What is DOM? Not done yet
+https://medium.com/@dannymcwaves/understanding-the-document-object-model-dom-8cbdd63e5434
 
 Library vs Framework.
 https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/
@@ -47,6 +49,7 @@ https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
 
 Why react has two CDN not one?
 https://backbencher.dev/articles/why-react-and-react-dom-libraries-kept-in-two-separate-files
+Search word "core" in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 Why style tag at top not bottom like scripts?
 Because colors will load and till element is parsed user will be able to see the color and things like that.
@@ -59,21 +62,19 @@ What is cross origin in scripts?
 https://javascript.info/onload-onerror#crossorigin-policy
 
 Production files vs Development files?
-https://stackoverflow.com/questions/48151128/difference-between-production-and-development-build-in-reactjs#:~:text=The%20development%20build%20is%20used%20-%20as%20the,is%20the%20code%20running%20on%20your%20client%27s%20machine.
+https://stackoverflow.com/questions/48151128/difference-between-production-and-development-build-in-reactjs
 
 Why order of React CDNs matter?
 Not found online yet.
-
-left to do
 
 Async vs defer?
 https://javascript.info/script-async-defer
 https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html#script
 
-https://www.techiediaries.com/react-18-createroot/
+Render in React 17 vs Render in React 18.
 https://bobbyhadz.com/blog/react-reacdom-render-no-longer-supported-in-react-18
 
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 Day 2
 
 1. What is Babel?
@@ -111,7 +112,7 @@ B. Component based structure.
 https://betterprogramming.pub/the-battle-of-bundlers-6333a4e3eda9
 
 10. What is robots.txt?
-https://www.cloudflare.com/learning/bots/what-is-robots.txt/
+https://moz.com/learn/seo/robotstxt
 Example: https://www.cloudflare.com/robots.txt
 
 11. What is Dist folder do?
@@ -148,4 +149,74 @@ https://www.code-boost.com/create-react-app/
 
 21. Why no script tag?
 https://stackoverflow.com/questions/65634876/why-my-react-app-appeared-no-script-tag-in-the-body-of-the-html
+
+22. What does reportWebVitals.js do in create react app?
+https://stackoverflow.com/questions/71261376/what-is-the-meaning-and-use-of-this-file-reportwebvitals-js-in-a-react-app
+https://create-react-app.dev/docs/measuring-performance/
+
+--------------------------------------------------------------------------------------------------------------
+Day 3
+
+1. What is a React component?
+https://upmostly.com/tutorials/what-is-a-react-component
+
+2. Class components over functional components?
+https://upmostly.com/tutorials/react-functional-vs-class-components
+
+3. Reference error vs Syntax error.
+https://stackoverflow.com/questions/71339326/reference-error-vs-syntax-error-during-js-compilation
+
+4. Modules Full detailed.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+5. Functional vs Class components 
+https://www.freecodecamp.org/news/functional-components-vs-class-components-in-react/
+https://javascript.plainenglish.io/which-is-better-class-components-or-functional-component-in-react-a417b4ef6c1a
+
+6. Why functional components stateless?
+https://technicqa.com/why-do-you-think-a-functional-component-is-called-stateless/
+
+7. What is JSX?
+https://reactjs.org/docs/introducing-jsx.html
+
+8. Rules of JSX
+https://medium.com/nerd-for-tech/jsx-rules-in-react-a-javascript-framework-4b0ab66fdbf9
+
+9. Sanitation and Escaping explanation 
+https://web.dev/sanitizer/
+
+10. Why JSX helps avoid injection attacks?
+https://stackoverflow.com/questions/57746377/react-documentation-jsx-prevents-injection-attacks
+Escapes '<' like characters, Hence <script> is just like normal character like string due to escape of '<' and '>'.
+
+11. Different attributes for script tag (type attribute)
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-type
+
+12. Nomodule
+https://stackoverflow.com/questions/45943494/what-s-the-purpose-of-the-html-nomodule-attribute-for-script-elements-if-the-d
+
+13. Benefits of JSX
+https://mundrisoft.com/tech-bytes/what-is-jsx-and-benefits/
+
+
+Day 7
+
+What is Routing in Javascript?
+https://medium.com/@fro_g/routing-in-javascript-d552ff4d2921
+
+Fundamentals of Routing in  react
+https://medium.com/the-andela-way/understanding-the-fundamentals-of-routing-in-react-b29f806b157e
+
+Formik
+https://css-tricks.com/using-formik-to-handle-forms-in-react/
+
+https://www.digitalocean.com/community/tutorial_series/how-to-code-in-react-js
+
+
+
+
+
+
+
+
 
